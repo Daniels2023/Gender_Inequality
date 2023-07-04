@@ -1,6 +1,9 @@
 from flask import Flask, render_template, jsonify
 import psycopg2
 
+with open("password.txt", "r") as file:
+    passw = file.read().strip()
+
 app = Flask(__name__)
 
 @app.route('/')
@@ -13,7 +16,7 @@ def get_data():
         host="localhost",
         database="GenderInequality",
         user="postgres",
-        password="dantas1987"
+        password=passw
     )
     cursor = conn.cursor()
     cursor.execute('SELECT * FROM "GenderInequality"')
