@@ -1,10 +1,12 @@
 from flask import Flask, render_template, jsonify
 import psycopg2
+from flask_cors import CORS
 
 with open("password.txt", "r") as file:
     passw = file.read().strip()
 
 app = Flask(__name__)
+cors = CORS(app)
 
 @app.route('/')
 def home():
