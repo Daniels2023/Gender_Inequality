@@ -6,21 +6,19 @@ d3.json(url).then(function(data) {
 });
 
 // Initializing the map
-var myMap = L.map('map').setView([51.505, -0.09], 2);
-// Initialize the map
-const map = L.map('map').setView([0, 0], 2);
+let map = L.map('map').setView([51.505, -0.09], 2);
 
 // Add the tile layer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
 }).addTo(map);
 
 // Loop through the data and create markers for each country
 data.forEach(country => {
-  const [hdiRank, countryName, _, _, _, _, lat, lon] = country;
+  const [hdiRank, countryName, Human_Development, Seats_in_Parliament, Female_Education, Male_Education, lat, lon] = country;
   if (lat && lon) {
-    L.marker([lat, lon]).addTo(map).bindPopup(`<b>${countryName}</b><br>HDI Rank: ${hdiRank}`);
-  }
+  L.marker([lat, lon]).addTo(map).bindPopup(`<b>${countryName}</b><br>HDI Rank: ${hdiRank}`);
+}
 });
 // Set up the SVG dimensions
 const svgWidth = 600;
