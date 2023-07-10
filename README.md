@@ -33,7 +33,18 @@ Wordcloud webscrapping: **project3_webscraping.ipynb** and **resources/wordcloud
 Monthly_Counts_of_Deaths_by_Select_Causes__2014-2019.csv
 https://chronicdata.cdc.gov/Chronic-Disease-Indicators/- U-S-Chronic-Disease-Indicators-CDI-/g4ie-h725
 https://www.cdc.gov/obesity/data/prevalence-maps.html
-https://www.kaggle.com/datasets/khushishahh/fast-food-restaurants-across-us
+https://www.kaggle.com/datasets/rajkumarpandey02/world-data-of-gender-inequality-index
+
+https://humanrights.gov.au/our-work/education/face-facts-gender-equality-2018",
+https://humanrights.gov.au/our-work/sex-discrimination/publications/unleashing-power-gender-equality-2017?_ga=2.226280728.300027987.1688536890-771838493.1688536890",
+https://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/4125.0Main+Features2Sep%202017?OpenDocument",
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0256474",
+https://copenhagenconsensus.com/sites/default/files/gender.pdf",
+https://www.theguardian.com/business/2022/nov/29/gender-diversity-in-uk-tech-industry-still-terrible-says-martha-lane-fox",
+https://www.theguardian.com/inequality/2022/apr/17/shock-absorbers-of-poverty-womens-lives-cut-short-by-their-unequal-position-in-society"
+
+
+
 Built With
 Python
 Jupyter Notebook
@@ -44,5 +55,5 @@ Plotly
 D3.js
 
 Maria Florencia Martin - https://github.com/Borruu/
-Ohana Bernardi - https://github.com/Solo1492
+Ohana Bernardi - https://github.com/OhanaB
 Daniel de Souza - https://github.com/MarDuo2022
