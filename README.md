@@ -18,7 +18,7 @@ PostgreSQL.
 # Project files
 The extraction and transformation steps: **Gender_Inequality.ipynb**
 
-The database structure and the table created in PostgreSQL: **GenderQuery.sql** and **ERD_Gender.png**
+The database structure and the table created in PostgreSQL: **resources/GenderQuery.sql** and **resources/ERD_Gender.png**
 
 Flask app: **app.py**
 
