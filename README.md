@@ -7,6 +7,7 @@ For Python it needs install:
 Python 3.x
 Jupyter Notebook
 Pandas, Flask, Psycopg2, Flask_CORS, Requests, BeautifulSoup, Collections, Re, Matplotlib and Wordcloud.
+
 For Javascript it needs the libraries:
 
 D3 and Plotly.
@@ -14,7 +15,12 @@ D3 and Plotly.
 And
 PostgreSQL.
 
-# Project
+# Project files
+The extraction and transformation steps: **Gender_Inequality.ipynb**
+The database structure and the table created in PostgreSQL: **GenderQuery.sql** and **ERD_Gender.png**
+Flask app: **app.py**
+Cards and Scatterplots visualizations: **script.js**, **GenderInequality.html** and **template/style.css**
+Wordcloud webscrapping: **project3_webscraping.ipynb** and **resources/wordcloud_webscraping.png**
 
 Final visualisations can be seen from the landing page index.html and linked sites, charts.html and maps.html.
 
