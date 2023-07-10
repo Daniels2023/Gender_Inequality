@@ -30,8 +30,11 @@ Wordcloud webscrapping: **project3_webscraping.ipynb** and **resources/wordcloud
 ...
 
 # Data sources
+
+### Dataset
 https://www.kaggle.com/datasets/rajkumarpandey02/world-data-of-gender-inequality-inde;
 
+### Webscrapping
 https://humanrights.gov.au/our-work/education/face-facts-gender-equality-2018";
 
 https://humanrights.gov.au/our-work/sex-discrimination/publications/unleashing-power-gender-equality-2017?_ga=2.226280728.300027987.1688536890-771838493.1688536890";
@@ -47,16 +50,17 @@ https://www.theguardian.com/business/2022/nov/29/gender-diversity-in-uk-tech-ind
 https://www.theguardian.com/inequality/2022/apr/17/shock-absorbers-of-poverty-womens-lives-cut-short-by-their-unequal-position-in-society";
 
 
+**Built With:**
+ * Python
+ * Jupyter Notebook
+ * Flask
+ * HTML
+ * CSS
+ * Plotly
+ * D3.js
 
-Built With
-Python
-Jupyter Notebook
-Flask
-HTML
-CSS
-Plotly
-D3.js
+**Maria Florencia Martin** - [https://github.com/flormartinaus](https://github.com/flormartinaus)
 
-Maria Florencia Martin - [https://github.com/Borruu/](https://github.com/flormartinaus)
-Ohana Bernardi - [https://github.com/OhanaB](https://github.com/OhanaB)
-Daniel de Souza - [https://github.com/MarDuo2022](https://github.com/Daniels2023)https://github.com/Daniels2023
+**Ohana Bernardi** - [https://github.com/OhanaB](https://github.com/OhanaB)
+
+**Daniel de Souza** - [https://github.com/Daniels2023](https://github.com/Daniels2023)
