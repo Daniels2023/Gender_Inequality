@@ -1,30 +1,94 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
     padding: 20px;
-}
-
-#dropdown-container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
     margin-bottom: 20px;
-}
-
-#cards-container {
+  }
+  
+  #dropdown-container {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #cards-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 20px;
-}
-
-.card {
+  }
+  
+  .card {
     width: 250px;
     padding: 10px;
     margin: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: center;
-}
+  }
+  
+  h2:first-child {
+    padding-top: 40px;
+  }
 
-#chart-container {
-    width: 800px;
-    margin: 0 auto;
-}
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  
+  #first-container {
+    background: linear-gradient(to bottom, #FEEFDD, #F3E8EE);
+    padding-bottom: 40px;
+  }
+  
+  #second-container {
+    background-color: #F3E8EE;
+    padding-bottom: 40px;
+  }
+  
+  #third-container {
+    background: linear-gradient(to bottom, #F3E8EE, #FEEFDD);
+    padding-bottom: 40px;
+  }
+  
+  #container-education,
+  #container-workforce {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  #chart-container-education,
+  #chart-container-workforce {
+    margin-top: 20px;
+  }
+
+  .axis-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .x.axis,
+  .y.axis {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .label {
+    font-size: 14px;
+    fill: #666;
+  }

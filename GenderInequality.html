@@ -1,23 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Data Visualization</title>
-    <link rel="stylesheet" type="text/css" href="templates/style.css">
+  <title>GENDER INEQUALITY</title>
+  <link rel="stylesheet" type="text/css" href="templates/style.css">
+  <script src="https://d3js.org/d3.v6.min.js"></script>
 </head>
 <body>
-    <div id="dropdown-container">
-        <label for="dropdown">Select Value:</label>
-        <select id="dropdown">
-            <option value="VERY HIGH">VERY HIGH</option>
-            <option value="HIGH">HIGH</option>
-            <option value="MEDIUM">MEDIUM</option>
-            <option value="LOW">LOW</option>
-        </select>
-    </div>
-    <div id="cards-container"></div>
-    <div id="chart-container"></div>
+  <h1>GENDER INEQUALITY</h1>
 
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="script.js"></script>
+  <div id="dropdown-container">
+    <label for="dropdown">Human Development:</label>
+    <select id="dropdown">
+      <option value="VERY HIGH">VERY HIGH</option>
+      <option value="HIGH">HIGH</option>
+      <option value="MEDIUM">MEDIUM</option>
+      <option value="LOW">LOW</option>
+    </select>
+  </div>
+
+  <div id="first-container">
+    <h2>Average in percentage of total population</h2>
+    <div id="cards-container"></div>
+    </div>
+
+    <div id="second-container">
+        <h2>Education Inequality</h2>
+        <div id="container-education">
+        <div id="chart-container-education"></div>
+        </div>
+    </div>
+
+    <div id="third-container">
+        <h2>Workforce Inequality</h2>
+        <div id="container-workforce">
+        <div id="chart-container-workforce"></div>
+        </div>
+    </div>
+    
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
