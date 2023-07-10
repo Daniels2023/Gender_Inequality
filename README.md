@@ -18,11 +18,11 @@ PostgreSQL.
 # Project files
 The extraction and transformation steps: **Gender_Inequality.ipynb**
 
-The database structure and the table created in PostgreSQL: **resources/GenderQuery.sql** and **resources/ERD_Gender.png**
+The database structure and the table created in PostgreSQL: **templates/GenderQuery.sql** and **resources/ERD_Gender.png**
 
 Flask app: **app.py**
 
-Cards and Scatterplots visualizations: **script.js**, **GenderInequality.html** and **template/style.css**
+Cards and Scatterplots visualizations: **script.js**, **GenderInequality.html** and **templates/style.css**
 
 Wordcloud webscrapping: **project3_webscraping.ipynb** and **resources/wordcloud_webscraping.png**
 
