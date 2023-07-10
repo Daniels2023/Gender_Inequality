@@ -3,11 +3,14 @@ This project aims to visualise gender inequality around the world based on Human
 
 # Prerequisites
 For Python it needs install:
+
 Python 3.x
 Jupyter Notebook
 Pandas, Flask, Psycopg2, Flask_CORS, Requests, BeautifulSoup, Collections, Re, Matplotlib and Wordcloud.
 For Javascript it needs the libraries:
+
 D3 and Plotly.
+
 And
 PostgreSQL.
 
