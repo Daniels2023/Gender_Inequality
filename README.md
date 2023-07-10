@@ -1,28 +1,17 @@
 # Gender Inequality Project
 This project aims to visualise gender inequality around the world based on Human Development in these countries. The base of these inequalities in this project are **Education** and **Workforce**, these indicators will be demonstrated in average percentual (cards), percentage of total population (scatterplots), countries with the lowest rates of female education (barcharts) and wordcloud webscrapping. Our main dataset is from Kaggle webpage and that was used to make an interactive cards, scatterplots and barcharts and, we also used 7 websites for the cloud word webscrapping.
 
-# Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
 # Prerequisites
-You will need to have the following software installed on your machine:
-
+For Python it needs install:
 Python 3.x
 Jupyter Notebook
-Pandas, Flask, Psycopg2, Flask_CORS,   olium, charts.js and other libraries used in the project (these will be listed in the requirements.txt file)
-Installation
-Clone the repository to your local machine:
-git clone https://github.com/MarDuo2022/Diabetes_visualisations.git
-Navigate to the project directory:
-cd Diabetes_visualisations
-Install the necessary dependencies:
-pip install -r requirements.txt
-Usage
-In the browser window that opens, navigate to the project directory and open the folder code.
-In this folder, create a file "password.py" containing the password for the local PostgreSQL database. This file name has been to 'gitignore' file so that it is not uploaded into GitHub repository.
-Open the Jupyter Notebook: Death_counts_Chronic_indicators_PostgreSQL.ipynb. In this jupyter notebook, the initial csv files are imported into pandas dataframes, and cleaned by dropping irrelevant columns.
+Pandas, Flask, Psycopg2, Flask_CORS, Requests, BeautifulSoup, Collections, Re, Matplotlib and Wordcloud.
+For Javascript it needs the libraries:
+D3 and Plotly.
+And
+PostgreSQL.
 
-Run the cells in the notebook to load the data into local PostgreSQL database and create cleaned csv files as output.
+# Project
 
 Final visualisations can be seen from the landing page index.html and linked sites, charts.html and maps.html.
 
