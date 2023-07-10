@@ -1,0 +1,65 @@
+/* Add custom styling for the chart containers */
+#chart-container,
+#chart-container2 {
+    width: 800px;
+    /* Match this with the SVG width you set in your JavaScript */
+    height: 400px;
+    margin: 50px auto;
+
+}
+
+/* Add styling for the title containers */
+#title-container,
+#title-container2 {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+/* Add styling for the page titles */
+#page-title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* Color coding based on Human Development level */
+.bar.very-high,
+.bar2.very-high {
+    fill: rgb(9, 0, 128);
+}
+
+.bar.high,
+.bar2.high {
+    fill: rgb(39, 192, 25);
+}
+
+.bar.medium,
+.bar2.medium {
+    fill: rgb(211, 228, 22);
+}
+
+.bar.low,
+.bar2.low {
+    fill: rgb(229, 60, 60);
+}
+
+/* Add styling for the axis labels */
+text {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+/* Add styling for the tooltips */
+.tooltip,
+.tooltip2 {
+    position: absolute;
+    text-align: center;
+    width: 280px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    pointer-events: none;
+}
