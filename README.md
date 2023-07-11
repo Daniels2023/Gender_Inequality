@@ -28,35 +28,35 @@ Wordcloud webscrapping: **project3_webscraping.ipynb** and **resources/wordcloud
 
 # Limitations in our Data
 
-Data limitation
+Data limitation -
 One of the limitations of our study is that our dataset only covers 170 countries. Therefore, the findings might not represent the entire global picture of gender inequality, as there are countries not included in our analysis. Further research that includes data from all countries worldwide could potentially offer more comprehensive insights.
 Cultural context
 While cultural beliefs might partially explain regional trends, they are often complex and difficult to quantify. Additional research, perhaps incorporating qualitative methods, might provide more insight into these dynamics.
 
-Multiple forms of discrimination
+Multiple forms of discrimination -
 Gender inequality often connects with other types of inequality, like race, wealth, or sexual orientation and the data does not take it in consideration.
 
-Measurement limitations
+Measurement limitations - 
 Any measure of inequality will have its limitations. For example, representation in parliament is an important aspect of political inequality, but it does not capture all elements such as the influence women wield in political office or the policy changes they are able to make. Additionally, workforce participation might not capture the quality of the work or differences in pay.
 
-Sampling bias
+Sampling bias - 
 Conclusions drawn might not be applicable to countries that were not included in the dataset.
 
-Measurement bias
+Measurement bias - 
 When the gender inequality is measured only in terms of education, workforce participation, and representation in parliament, it might not fully capture the reality of gender inequality, which can manifest in many other forms such as wage disparities, access to healthcare, etc.
 
 # Conclusion
 
-Correlation between human development and inequality
+Correlation between human development and inequality - 
 This finding suggests that as a country's Human Development Index (HDI) increases, inequalities in education, workforce participation, and representation in parliament may decrease. However, correlation does not imply causation, so it would be worthwhile to investigate whether improvements in HDI are causing these reductions in inequality, or if there is another factor influencing both variables.
 
-Differences in workforce participation across regions
+Differences in workforce participation across regions - 
 The analysis indicates that countries in the Middle East have lower female workforce participation rates. Cultural beliefs and practices may be a significant factor in this trend.
 
-Discrepancy between female workforce participation and overall development
+Discrepancy between female workforce participation and overall development - 
 This highlights the complexity of gender inequality and human development, where it's possible for a country to have relatively high levels of development while still experiencing significant Inequality between genders. Jordan, Iran, Egypt, and Algeria demonstrate relatively high levels of development despite low female workforce participation rates. This suggests that even countries with higher HDIs may need to focus specifically on gender-based policies to improve equality.
 
-Overall Conclusion
+Overall Conclusion - 
 In summary, our journey towards achieving gender equality still has a long way to go
 
 # Data sources
