@@ -31,13 +31,13 @@ function createBarChart(attribute, attributeIndex, svgWidth, chartTitle, yAxisLa
       .style("opacity", 0);
 
     // Define color categories and their labels
-    const colorCategories = [ 'high', 'medium', 'low'];
-    const colorLabels = [ 'High Development', 'Medium Development', 'Low Development'];
+    const colorCategories = [ 'very-high', 'high', 'medium', 'low'];
+    const colorLabels = [ 'Very-High', 'High Development', 'Medium Development', 'Low Development'];
 
     // Define color scale
     const colorScale = d3.scaleOrdinal()
         .domain(colorCategories)
-        .range(['rgb(39, 192, 25)', 'rgb(211, 228, 22)', 'rgb(229, 60, 60)']);
+        .range(['rgb(9, 0, 128)','rgb(39, 192, 25)', 'rgb(211, 228, 22)', 'rgb(229, 60, 60)']);
         
     // Create bars
     svgBar.selectAll(".bar")
